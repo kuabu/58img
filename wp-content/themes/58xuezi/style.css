@@ -1,0 +1,178 @@
+/*
+Theme Name: 58xuezi
+Description: 58学子论文检测模板
+Author: 58xuezi
+Author URI: https://58xuezi.com/
+Theme URI: https://58xuezi.com/
+Version: 3.0.2
+*/
+
+body{
+	background-color: #eaeff5;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 2104921 */
+  src: url('//at.alicdn.com/t/font_2104921_yho67bf3zf.eot');
+  src: url('//at.alicdn.com/t/font_2104921_yho67bf3zf.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_2104921_yho67bf3zf.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_2104921_yho67bf3zf.woff') format('woff'),
+  url('//at.alicdn.com/t/font_2104921_yho67bf3zf.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_2104921_yho67bf3zf.svg#iconfont') format('svg');
+}
+
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:30px;font-style:normal;
+    padding-right: 5px;
+    color:#FF0033;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+
+.yetou {
+	background-color: #FFCC00;
+}
+
+.ytitem {
+	padding-top: 25px;
+}
+
+
+.footcss {
+	background-color: #FFCC00;
+	text-align:center;
+}
+
+
+
+.zhengwen{
+	background-color: #ffffff;
+	margin: 15px 0px 15px 0px;
+
+}
+.neir {
+	margin: 15px 0px 15px 0px;
+}
+.post-title{
+	background-color: #ffffff;
+	text-align: center;
+	padding: 15px 15px 15px 15px;
+	margin: 15px 0px 15px 0px;
+}
+.header-title {
+	background-color: #FFCC00;
+	text-align: center;
+	padding: 15px 15px 15px 15px;
+	margin: 15px 0px 15px 0px;
+}
+.post-content {
+	background-color: #ffffff;
+	padding: 15px 5px 15px 5px;
+	margin: 15px 0px 15px 0px;
+}
+
+.sbox{padding: 10px;border: 1px solid #CFCFCF;box-shadow: 0 0 5px #C6C6C6;margin-bottom: 10px;font-size:20px;background-color: #ffffff;}
+.sbox h2 {
+	border-left: 4px solid #3780D3;
+	height: 40px;
+	line-height: 26px;
+	padding-left: 15px;
+	font-size: 28px;
+	padding-bottom: 8px;
+	padding-top: 8px;
+	margin-left: 5px;
+	background-color: #FFCC00;
+}
+
+.search-item {
+	background-color: #ffffff;
+	padding: 15px 15px 15px 15px;
+	margin: 15px 0px 15px 0px;
+}
+
+.wz{margin:5px 0px 5px 5px;}
+
+
+/*------------------
+    分页部分的CSS
+------------------*/
+.fenye{    
+    height: 25px;
+    line-height: 25px;
+    _background: #F9F9F9;
+    padding: 2px 5px;
+    margin: 20px 4px;
+    _border: solid 1px #ccc;
+    _text-align: center;
+}
+
+.fenye a{
+    padding:4px 6px 4px 6px;
+    margin:0 2px 0 2px;
+    border:1px solid #aaa;
+    text-decoration:none;
+    color:#333;
+}
+
+.fenye a.current{    
+    background:#ff6f3d;    
+    color:#fff;
+}
+
+.fenye a:hover{
+    background:#ff6f3d;
+    color:#fff;
+}
+
+/*-- footer --*/
+.footer {
+    width:100%;
+    height:64px;
+    background:#E6E9ED;
+    border-top: 1px solid #e2e2e3;
+}
+
+
+/*-- post --*/
+.post {
+    background:none;
+}
+
+.post .entry-cnt {
+    height:auto;
+    line-height:2;
+    font-size:14px;
+    border-top-width: 1px;
+    border-top-style: dotted;
+    border-top-color: #eee;
+    padding:15px 0 0;
+}
+
+.post .entry-cnt p {
+    line-height:2;
+    font-size:14px;    
+}
+
+.related {
+    padding:10px 5px 10px 5px;
+    border-top:1px solid #eee;
+    border-bottom:1px solid #eee;
+    margin: 20px auto 10px auto;
+}
+
+.r-left {
+    float:left;
+}
+
+.r-right {
+    float:right;
+}
+
+/*-- discuss --*/
+.discuss {
+    padding:25px;
+}
+
+img {          
+	max-width: 100%;
+}
