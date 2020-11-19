@@ -70,6 +70,7 @@ registerBlockType( 'ugb/blockquote', {
 		'advanced-block-spacing': true,
 		'advanced-column-spacing': {
 			columnGap: false,
+			paddings: false,
 		},
 		'advanced-responsive': true,
 		'block-background': true,
@@ -108,6 +109,7 @@ registerBlockType( 'ugb/blog-posts', {
 		'advanced-column-spacing': {
 			verticalColumnAlign: true,
 			verticalContentAlign: false,
+			paddings: false,
 		},
 		'advanced-responsive': true,
 		'block-background': true,
@@ -210,6 +212,7 @@ registerBlockType( 'ugb/cta', {
 		'advanced-block-spacing': true,
 		'advanced-column-spacing': {
 			columnGap: false,
+			paddings: false,
 		},
 		'advanced-responsive': true,
 		'block-background': true,
@@ -245,6 +248,7 @@ registerBlockType( 'ugb/card', {
 		'advanced-general': true,
 		'advanced-block-spacing': true,
 		'advanced-column-spacing': {
+			paddings: false,
 			verticalColumnAlign: true,
 		},
 		'advanced-responsive': true,
@@ -260,7 +264,6 @@ registerBlockType( 'ugb/card', {
 }
 
 // For column spacings, use advanced paddings & vertical align on the content area only.
-addFilter( 'stackable.card.advanced-column-spacing.paddings.selector', 'stackable/card', () => '.ugb-card__content' )
 addFilter( 'stackable.card.advanced-column-spacing.vertical-align.selector', 'stackable/card', () => '.ugb-card__content' ) )
 registerBlockType( 'ugb/columns', {
 	title: __( 'Advanced Columns & Grid', i18n ),
@@ -355,6 +358,7 @@ registerBlockType( 'ugb/container', {
 		'advanced-block-spacing': true,
 		'advanced-column-spacing': {
 			columnGap: false,
+			paddings: false,
 		},
 		'advanced-responsive': true,
 		'block-background': true,
@@ -396,6 +400,7 @@ registerBlockType( 'ugb/count-up', {
 		'advanced-block-spacing': true,
 		'advanced-column-spacing': {
 			verticalColumnAlign: true,
+			paddings: false,
 		},
 		'advanced-responsive': true,
 		'block-background': true,
@@ -567,6 +572,7 @@ registerBlockType( 'ugb/feature-grid', {
 		'advanced-block-spacing': true,
 		'advanced-column-spacing': {
 			verticalColumnAlign: true,
+			paddings: false,
 		},
 		'advanced-responsive': true,
 		'block-background': true,
@@ -706,7 +712,10 @@ registerBlockType( 'ugb/header', {
 	modules: {
 		'advanced-general': true,
 		'advanced-block-spacing': true,
-		'advanced-column-spacing': { columnGap: false },
+		'advanced-column-spacing': {
+			columnGap: false,
+			paddings: false,
+		},
 		'advanced-responsive': true,
 		'block-background': true,
 		'block-separators': true,
@@ -823,7 +832,9 @@ registerBlockType( 'ugb/icon', {
 	modules: {
 		'advanced-general': true,
 		'advanced-block-spacing': true,
-		'advanced-column-spacing': true,
+		'advanced-column-spacing': {
+			paddings: false,
+		},
 		'advanced-responsive': true,
 		'block-background': true,
 		'block-separators': true,
@@ -858,7 +869,9 @@ registerBlockType( 'ugb/image-box', {
 	modules: {
 		'advanced-general': true,
 		'advanced-block-spacing': true,
-		'advanced-column-spacing': true,
+		'advanced-column-spacing': {
+			paddings: false,
+		},
 		'advanced-responsive': true,
 		'block-background': true,
 		'block-separators': true,
@@ -908,7 +921,10 @@ registerBlockType( 'ugb/notification', {
 	modules: {
 		'advanced-general': true,
 		'advanced-block-spacing': true,
-		'advanced-column-spacing': { columnGap: false },
+		'advanced-column-spacing': {
+			columnGap: false,
+			paddings: false,
+		},
 		'advanced-responsive': true,
 		'block-background': true,
 		// 'block-separators': true,
@@ -991,6 +1007,7 @@ registerBlockType( 'ugb/number-box', {
 		'advanced-block-spacing': true,
 		'advanced-column-spacing': {
 			verticalColumnAlign: true,
+			paddings: false,
 		},
 		'advanced-responsive': true,
 		'block-background': true,
@@ -1028,6 +1045,7 @@ registerBlockType( 'ugb/pricing-box', {
 		'advanced-block-spacing': true,
 		'advanced-column-spacing': {
 			verticalColumnAlign: true,
+			paddings: false,
 		},
 		'advanced-responsive': true,
 		'block-background': true,
@@ -1224,7 +1242,9 @@ registerBlockType( 'ugb/team-member', {
 	modules: {
 		'advanced-general': true,
 		'advanced-block-spacing': true,
-		'advanced-column-spacing': true,
+		'advanced-column-spacing': {
+			paddings: false,
+		},
 		'advanced-responsive': true,
 		'block-background': true,
 		'block-separators': true,
@@ -1320,6 +1340,7 @@ registerBlockType( 'ugb/testimonial', {
 		'advanced-block-spacing': true,
 		'advanced-column-spacing': {
 			verticalColumnAlign: true,
+			paddings: false,
 		},
 		'advanced-responsive': true,
 		'block-background': true,
@@ -1415,7 +1436,9 @@ registerBlockType( 'ugb/text', {
 	modules: {
 		'advanced-general': true,
 		'advanced-block-spacing': true,
-		'advanced-column-spacing': true,
+		'advanced-column-spacing': {
+			paddings: false,
+		},
 		'advanced-responsive': true,
 		'block-background': true,
 		'block-separators': true,
